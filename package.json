@@ -5,9 +5,8 @@
   "repository": "git@github.com:isotopsweden/vendurelab.git",
   "author": "Rasmus Bengtsson <rasmus@isotop.se>",
   "license": "MIT",
-  "workspaces": {
-    "packages/*": {
-      "private": true
-    }
-  }
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }

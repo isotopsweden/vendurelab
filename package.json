@@ -1,0 +1,13 @@
+{
+  "name": "alster-shop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:isotopsweden/vendurelab.git",
+  "author": "Rasmus Bengtsson <rasmus@isotop.se>",
+  "license": "MIT",
+  "workspaces": {
+    "packages/*": {
+      "private": true
+    }
+  }
+}
